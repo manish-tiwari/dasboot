@@ -26,7 +26,7 @@ public class ShipwreckStub {
 	}
 
 	public static Shipwreck create(Shipwreck wreck) {
-		idIndex += idIndex;
+		idIndex = ++idIndex;
 		wreck.setId(idIndex);
 		wrecks.put(idIndex, wreck);
 		return wreck;
