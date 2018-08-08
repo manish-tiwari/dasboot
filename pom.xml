@@ -39,6 +39,11 @@
       <artifactId>h2</artifactId>
     </dependency>
     <dependency>
+      <!-- For flyway to work we need to put migration script at classpath -->
+      <groupId>org.flywaydb</groupId>
+      <artifactId>flyway-core</artifactId>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
